@@ -14,6 +14,6 @@ func Hello(name string) (string, error) {
 
 	// If a name was received, return a value that ambeds the name
 	// in a greetings message.
-	message := fmt.Sprintf("Hi, %v. Welcome!", name)
+	message := fmt.Sprintf("Yo, %v. La peni serr'a?", name)
 	return message, nil
 }
